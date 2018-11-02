@@ -1,6 +1,6 @@
 div > div > iframe[src*=ads], div > div > a[target=_blank] {
     display: none;
 }
-#chbDoujinshi + .clear {
+div.bigBarContainer > div + .clear {
     display: none;
 }
