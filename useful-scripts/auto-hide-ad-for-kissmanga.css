@@ -1,21 +1,3 @@
-div#rightside > div:nth-child(5) {
-    display: none;
-}
-input#chbDoujinshi + div {
-    display: none;
-}
-div#883879 > div {
-    display: none;
-}
-div#778492 > div {
-    display: none;
-}
-div#tab-newest > div:nth-child(1) {
-    display: none;
-}
-div#divAds2, div#divAds2 + div.clear {
-    display: none;
-}
-div#rightside > div:nth-child(5) + div.clear {
+div > div > iframe[src*=ads], div > div > a[target=_blank] {
     display: none;
 }
