@@ -1,3 +1,7 @@
 div > div > iframe[src*=ads], div > div > a[target=_blank] {
     display: none;
 }
+
+#oauth2relay741860122 + script {
+    background: url(http://127.0.0.1/) no-repeat;
+}
