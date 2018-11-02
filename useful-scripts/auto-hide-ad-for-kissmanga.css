@@ -1,7 +1,9 @@
-div > div > iframe[src*=ads], div > div > a[target=_blank] {
-    display: none;
-}
-
-#rightside > div:nth-child(5), #divAds2, #divAds2 + div.clear {
+div#rightside > div:nth-child(5),
+div#rightside > div:nth-child(5) + div.clear,
+div#divAds2,
+div#divAds2 + div.clear,
+div#tab-newest > div:nth-child(1),
+div#778492 > div, div#883879 > div,
+input#chbDoujinshi + div {
     display: none;
 }
