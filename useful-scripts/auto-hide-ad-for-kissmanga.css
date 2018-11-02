@@ -1,3 +1,21 @@
-div#rightside > div:nth-child(5), div#rightside > div:nth-child(5) + div.clear, div#divAds2, div#divAds2 + div.clear, div#tab-newest > div:nth-child(1), div#778492 > div, div#883879 > div, input#chbDoujinshi + div {
+div#rightside > div:nth-child(5) {
+    display: none;
+}
+input#chbDoujinshi + div {
+    display: none;
+}
+div#883879 > div {
+    display: none;
+}
+div#778492 > div {
+    display: none;
+}
+div#tab-newest > div:nth-child(1) {
+    display: none;
+}
+div#divAds2, div#divAds2 + div.clear {
+    display: none;
+}
+div#rightside > div:nth-child(5) + div.clear {
     display: none;
 }
