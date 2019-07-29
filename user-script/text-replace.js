@@ -1,6 +1,6 @@
 
 document.onkeyup = function (e) {
-	if (e.ctrlKey && e.altKey && e.which == 82)
+	if (e.ctrlKey && e.altKey && e.which == 82) //ctrl + alt +R
 	{
 		var src = prompt("Replace what in this page ?");
 		var dest = prompt("Replace all '" + src + "' words with:");
