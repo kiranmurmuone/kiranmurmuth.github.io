@@ -1,12 +1,23 @@
+// ==UserScript==
+// @name         Text Replace
+// @namespace    io.github.kiranmurmuth.user-script.text-replace
+// @version      1.0
+// @description  A basic text replacer for webpages.
+// @author       KiranMurmuTH
+// @match        *://*.*/*
+// @grant        none
+// @run-at       document-end
+// ==/UserScript==
 
-document.onkeyup = function (e) {
-	if (e.ctrlKey && e.altKey && e.which == 82) //ctrl + alt +R
-	{
-		var src = prompt("Replace what in this page ?");
-		var dest = prompt("Replace all '" + src + "' words with:");
-		var replace = dest;
-		
-		document.body.innerHTML = document.body.innerHTML.split(src).join(replace);
+(function() {
+    'use strict';
+	document.onkeyup = function (e) {
+		if (e.ctrlKey && e.altKey && e.which == 82) //ctrl + alt + R
+		{
+			var find_what = prompt("Replace what in this page ?");
+			var replace_with = prompt("Replace all '" + find_what + "' words with:");
+			document.body.innerHTML = document.body.innerHTML.split(find_what).join(replace_with);
+		}
+		document.getElementsByTagName("BODY")[0].focus();
 	}
-	document.getElementsByTagName("BODY")[0].focus();
-}
+})();
