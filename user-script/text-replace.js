@@ -4,7 +4,7 @@
 // @version      1.0.9
 // @description  A basic text replacer for webpages.
 // @author       KiranMurmuTH
-// @match        *://novelplanet.com/Novel/*/*
+// @match        http*://*/*
 // @run-at       document-end
 // ==/UserScript==
 
