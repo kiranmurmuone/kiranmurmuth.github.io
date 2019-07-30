@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Text Replace
 // @namespace    io.github.kiranmurmuth.user-script.text-replace
-// @version      1.0.6
+// @version      1.0.7
 // @description  A basic text replacer for webpages.
 // @author       KiranMurmuTH
 // @run-at       document-end
@@ -10,8 +10,8 @@
 (function() {
     'use strict';
 	document.onkeydown = function (e) {
-		//ctrl + shift + R
-		if (e.ctrlKey && e.shiftKey && e.which == 82)
+		//ctrl + shift + H
+		if (e.ctrlKey && e.shiftKey && e.which == 72)
 		{
 			var find_what, replace_with;
 			find_what = prompt("Replace what in this page?");
