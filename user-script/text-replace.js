@@ -16,10 +16,10 @@
 			var find_what, replace_with;
 			find_what = prompt("Replace what in this page?");
 			if (find_what != null && find_what.length != 0) {
-                replace_with = prompt("Replace all \" " + find_what + " \" with:");
-                if (replace_with != null) {
-                    document.body.innerHTML = document.body.innerHTML.split(find_what).join(replace_with);
-                }
+				replace_with = prompt("Replace all \" " + find_what + " \" with:");
+				if (replace_with != null) {
+					document.body.innerHTML = document.body.innerHTML.split(find_what).join(replace_with);
+				}
 			}
 		}
 		document.getElementsByTagName("BODY")[0].focus();
