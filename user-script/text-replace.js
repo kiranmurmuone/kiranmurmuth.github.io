@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Text Replace
-// @namespace    io.github.kiranmurmuth.user-script.text-replace
+// @namespace    io.github.kiranmurmuone.user-script.text-replace
 // @version      1.0.9
 // @description  A basic text replacer for webpages.
-// @author       KiranMurmuTH
+// @author       kiranmurmuone
 // @match        http*://*/*
 // @run-at       document-end
 // ==/UserScript==
