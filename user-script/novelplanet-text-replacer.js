@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Escape char replacer for Read Aloud
+// @name         Text Replacer for novelplanet.com
 // @namespace    io.github.kiranmurmutone.user-script.novelplanet-text-replacer
-// @version      1.0.4
+// @version      1.0.5
 // @description  Replaces text or strings on novelplanet.com
 // @author       kiranmurmutone
 // @match        *://novelplanet.com/Novel/*/*
